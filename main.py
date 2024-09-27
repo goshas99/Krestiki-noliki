@@ -40,7 +40,7 @@ def main(board):
     win = False
     while not win:
         draw_board(board)
-        if counter % 2 == 0:
+        if counter % 3 == 0:
             take_input("X")
         else:
             take_input("O")
